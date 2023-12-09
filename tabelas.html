@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Trabalhando com tabelas</title>
+    <!-- Mudar a fonte da página inteira
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+     -->
+</head>
+<body>
+    <h1>Trabalhando com tabelas</h1>
+    <p>No HTML os dados tabulares são aqueles ser representados visualmente em forma de tabela.</p>
+    <p>A elaboração de uma tabela consiste em uma combinação de linhas e colunas, resultando em uma forma objetiva e ornedana de expor as informações.</p>
+    <h3>Tabela simples:</h3>
+ 
+    <!-- <tr> representa uma linha - <td> dentro de uma tr representa uma cédula -->
+    <table border="1">
+        <!--o atributo 'border' no html5 nao ésta meis sendo utilizado,
+        pois essa configuração e realizada dentro do css -->
+        <tr>
+            <td>Violão</td>
+            <td>Guitarra</td>
+        </tr>
+ 
+        <tr>
+            <td>Violino</td>
+            <td>Piano</td>
+        </tr>
+ 
+ 
+    </table>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    <h3>Tabela com células de título:</h3>
+    <table border="1">
+        <tr>
+            <th>Instrumentos de corda</th>
+            <th>Instrumento de sopro</th>
+        </tr>
+        <tr>
+            <td>Violino</td>
+            <td>Flauta</td>
+        </tr>
+        <tr>
+            <td>Piano</td>
+            <td>Corneta</td>
+        </tr>
+    </table> 
+
+    <h3>Cabeçalhos na vertical</h3>
+    <table border="1">
+        <tr>
+            <th>Livro</th>
+            <td>arte moderna</td>
+            <td>Programação</td>
+        </tr>
+        <tr>
+            <th>Quantidade</th>
+            <th> 500 exemplare</th>
+            <th> 600 exemplare</th>
+        </tr>
+    </table>
+
+    <h3>Cabeçalho, corpo e rodapé da tabela</h3>
+    <p>Estes elementos criam seções dentro da tabela que podem receber uma formação diferenciada, útil para formatação de tabelas com muitos</p>
+
+    <table border="1">
+        <caption>Tabela thead/ tfoot / tbody</caption>
+        <thead>
+            <tr>
+                <th colspan="2">Coluna 1</th>
+                <th>Coluna 2</th>
+                <th>Coluna 3</th>
+            </tr>
+        </thead>
+            <tfoot>
+                <tr> Resultado 1</tr>
+                <tr> Resultado 2</tr>
+                <tr> Resultado 3</tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>Conteúdo a</td>
+                    <td>Conteúdo b</td>
+                    <td>Conteúdo c</td>
+                    
+                </tr>
+                <tr>
+                    <td>Conteúdo d</td>
+                    <td>Conteúdo e</td>
+                    <td>Conteúdo f</td>
+                </tr>
+                <tr>
+                    <td>Conteúdo g</td>
+                    <td>Conteúdo h</td>
+                    <td>Conteúdo i</td>
+                </tr>
+            </tbody>
+        
+    </table>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82778.69036109885!2d-46.73384030672563!3d-23.520420676560754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8775663b04f%3A0x923835e9005f8309!2sSenac%20Lapa%20Tito!5e0!3m2!1spt-BR!2sbr!4v1701991489262!5m2!1spt-BR!2sbr" width="400" height="300" style="border:1px red solid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ 
+ 
+   
+</body>
+</html>

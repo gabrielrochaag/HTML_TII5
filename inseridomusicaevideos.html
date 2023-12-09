@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Iserido música e video</title>
+</head>
+<body>
+    <h1>Iserido música e videos</h1>
+    <p>Para iserir uma música Mp3 em sua página web, o 
+        arquivo deve estar em uma pasta junto com a pasta do site, 
+        no nosso caso, teremos uma pasta chamada mídia
+    </p>
+    <audio controls id="audio">
+        <source src="midia/audio/metalica_nothing.mp3" type="audio/mpeg">
+
+    </audio>
+
+
+    <section>
+        <p>Veja o video a seguir:</p>
+        <video controls>
+            <source src="midia/video/london.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+        </video>
+    </section>
+    <br>
+    <!--<br> pular linha-->
+    <video controls>
+        <source src="midia/video/pink-floyd.mp4" type="video/mp4">
+        <source src="midia/video/pink-floyd.ogg" type="video/ogg">
+        <source src="midia/video/pink-floyd.webm" type="video/webm">
+        <track king="subtitles" srclang="pt-BR" src="midia/video/legenda-ptbr.vtt" label="Português Brasil" default>
+
+        <track king="subtitles" srclang="en" src="midia/video/legenda-ptbr.vtt" label="Inglês" default>
+
+
+    </video>
+
+    <main>Existe outra farma de inserir o video sem ter como arquivo,  
+        por meio do site do 
+        <b>YouTube</b>
+        <br>
+
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/bV2ZHU---TA?si=OYsP_9BE3AoAVF50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </main>
+</body>
+</html>
